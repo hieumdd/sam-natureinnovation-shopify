@@ -11,11 +11,11 @@ shops = {
             "hawaiianhealing",
             os.getenv("HAWAIIANHEALING_TOKEN", ""),
         ),
-        # interface.Shop(
-        #     "benzarid",
-        #     "benzarid",
-        #     os.getenv("benzarid_TOKEN", ""),
-        # ),
+        interface.Shop(
+            "Benzarid",
+            "benzarid",
+            os.getenv("BENZARID_TOKEN", ""),
+        ),
         interface.Shop(
             "BedBugStore",
             "bedbugstore",

@@ -4,7 +4,7 @@ from shopify import pipeline, shop, shopify_service
 
 TIMEFRAME = [
     # ("auto", (None, None)),
-    ("manual", ("2022-06-01", "2022-09-01")),
+    ("manual", ("2022-01-01", "2023-01-01")),
 ]
 
 
